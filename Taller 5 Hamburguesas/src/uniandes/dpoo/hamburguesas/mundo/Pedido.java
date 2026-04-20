@@ -46,13 +46,17 @@ public class Pedido
      * Al crear un nuevo pedido se le debe asignar como identificador el número de pedido, y se debe incrementar el valor del atributo estático 'numeroPedidos'
      * @param nombreCliente
      * @param direccionCliente
+     * @param idPedido 
      */
-    public Pedido( String nombreCliente, String direccionCliente )
+    public Pedido( String nombreCliente, String direccionCliente)
+    //no es necesario idpedido entonces para que esta 
+    
     {
-        this.idPedido = numeroPedidos++;
+    	numeroPedidos+=1;
+        this.idPedido = Pedido.numeroPedidos;
         this.nombreCliente = nombreCliente;
         this.direccionCliente = direccionCliente;
-        productos = new ArrayList<Producto>( );
+        this.productos = new ArrayList<Producto>( );
     }
 
     /**
