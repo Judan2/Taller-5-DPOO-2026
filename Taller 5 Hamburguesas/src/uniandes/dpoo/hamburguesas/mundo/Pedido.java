@@ -76,8 +76,19 @@ public class Pedido
     {
         return nombreCliente;
     }
-
     /**
+    faltaba el getter de direccion
+    pone la direccon
+     **/
+    public String getDireccionCliente() {
+		return direccionCliente;
+	}
+
+	public void setDireccionCliente(String direccionCliente) {
+		this.direccionCliente = direccionCliente;
+	}
+
+	/**
      * Agrega un nuevo producto al pedido
      * @param nuevoProducto El producto que debe agregarse al pedido
      */

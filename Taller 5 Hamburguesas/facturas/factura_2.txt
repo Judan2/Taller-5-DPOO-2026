@@ -1,0 +1,7 @@
+Cliente: Andrea Guitierrez
+Dirección: Calle 18 #34-40
+----------------
+----------------
+Precio Neto:  0
+IVA:          0
+Precio Total: 0

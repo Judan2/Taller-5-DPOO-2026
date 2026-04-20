@@ -57,6 +57,10 @@ public class Combo implements Producto
          
         return (int)(precio * (1 - descuento));
     }
+    @Override
+    public String toString() {
+        return nombreCombo + " (" + getPrecio() + ")";
+    }
 
     /**
      * Genera el texto que debe aparecer en la factura.

@@ -30,10 +30,11 @@ public class Ingrediente
      * Retorna el nombre del ingrediente
      * @return
      */
-    public String getNombre( )
+    public String getNombre( ) 
     {
         return nombre;
     }
+    
 
     /**
      * Retorna el costo adicional del ingrediente
@@ -42,6 +43,12 @@ public class Ingrediente
     public int getCostoAdicional( )
     {
         return costoAdicional;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return nombre + " ($" + costoAdicional + ")";
     }
 
 }

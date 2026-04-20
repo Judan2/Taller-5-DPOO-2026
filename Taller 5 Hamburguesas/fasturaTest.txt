@@ -1,0 +1,11 @@
+Cliente: Juan
+Dirección: diagonal 19 calle 18 #20-39
+----------------
+corral
+Total a Pagar: 14000
+corral queso
+Total a Pagar: 16000
+----------------
+Precio Neto:  30000
+IVA:          5700
+Precio Total: 35700

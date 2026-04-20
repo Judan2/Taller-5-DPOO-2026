@@ -1,0 +1,7 @@
+Cliente: Juan
+Dirección: Calle 19 #26-15
+----------------
+----------------
+Precio Neto:  0
+IVA:          0
+Precio Total: 0

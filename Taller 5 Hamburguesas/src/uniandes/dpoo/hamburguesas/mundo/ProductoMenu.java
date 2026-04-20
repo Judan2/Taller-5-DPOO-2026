@@ -38,6 +38,10 @@ public class ProductoMenu implements Producto
         return precioBase;
     }
 
+    @Override
+    public String toString() {
+        return this.nombre  + ":" + " $" + this.precioBase;
+    }
     /**
      * Genera el texto que debe aparecer en la factura.
      * 
@@ -47,7 +51,8 @@ public class ProductoMenu implements Producto
     public String generarTextoFactura( )
     {
         StringBuffer sb = new StringBuffer( );
-        sb.append( nombre + "\n" );
+        sb.append("**** Factura ****"+"\n");
+        sb.append( "Nombre de Producto: " + nombre + "\n" );
         sb.append( "Total a Pagar: " + getPrecio( ) + "\n" );
 
         return sb.toString( );

@@ -103,6 +103,7 @@ public class Restaurante
 
         String nombreArchivo = PREFIJO_FACTURAS + pedidoEnCurso.getIdPedido( ) + ".txt";
         pedidoEnCurso.guardarFactura( new File( CARPETA_FACTURAS + nombreArchivo ) );
+        pedidos.add(pedidoEnCurso);
         pedidoEnCurso = null;
     }
 
@@ -131,7 +132,7 @@ public class Restaurante
      * 
      * @return
      */
-    public ArrayList<ProductoMenu> getMenuBase( )
+    public ArrayList<ProductoMenu> getMenuBase( )//que hace getMenuBase 
     {
         return menuBase;
     }
